@@ -1,0 +1,71 @@
+.review-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 380px;
+    padding: 20px;
+    margin: 50px 10px;
+
+    user-select: none;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid grey;
+    transition: all ease-in-out .3s;
+}
+.review-container:hover {
+    border: 1px solid yellow;
+    transform: scale(1.009);
+}
+.review-container:hover > .review-top i {
+    color: yellow;
+}
+
+
+
+
+.review-top {
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 90%;
+
+    transition: all ease-in-out .3s;
+}
+.review-top p:nth-child(1) {
+    font-weight: bold;
+    transition: all ease-in-out .3s;
+}
+
+.review-top i {
+    font-size: 15px;
+    color: grey;
+    margin-left: 3px;
+    transition: all ease-in-out .3s;
+}
+
+.review-bottom {
+    /* border: 1px solid; */
+    transition: all ease-in-out .3s;
+}
+
+
+
+
+::-webkit-scrollbar {
+    height: 6px;
+    width: 4px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(79, 79, 79);
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: #cacaca;
+}

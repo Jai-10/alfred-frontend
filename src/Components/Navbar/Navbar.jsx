@@ -19,7 +19,7 @@ const Navbar = () => {
             </div>
 
             <div className="toggle-nav" onClick={toggleNav}>
-                <i className='fa-solid fa-bars'></i>
+                <i className={`fa-solid fa-${ navState ? 'xmark' : 'bars' }`}></i>
             </div>
 
             <div className="nav-right"

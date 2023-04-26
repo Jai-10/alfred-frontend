@@ -1,6 +1,6 @@
 import './Navbar.css'
 import { Link } from 'react-router-dom'
-import SiteLogo from '../../assets/site-logo.png'
+import SiteLogo from '../../assets/bg-img.png'
 import UserIcon from '../../assets/user-pfp.png'
 import { useState } from 'react'
 

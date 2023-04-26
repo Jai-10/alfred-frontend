@@ -15,7 +15,8 @@
     transition: all ease-in-out .3s;
 }
 .nav-left img {
-    width: 80px;
+    width: 70px;
+    margin-left: 5px;
     user-select: none;
     transition: all ease-in-out .3s;
 }

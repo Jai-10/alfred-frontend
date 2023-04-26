@@ -22,8 +22,22 @@
     background: url('../../assets/site-logo.png') no-repeat center center;
     background-size: 70%;
     transition: all ease-in-out .3s;
-}
 
+    animation-name: bg-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes bg-animation {
+    0% {
+        filter: none;
+    }
+    50% {
+        filter: drop-shadow(0 100px 200px yellow);
+    }
+    100% {
+        filter: none;
+    }
+}
 
 .home-scroll-down {
     position: absolute;
@@ -84,22 +98,19 @@
 
 
 
+
+
 .home-container p:nth-child(1) {
     user-select: none;
     font-size: 80px;
     margin-top: -40px;
     transition: all ease-in-out .3s;
 }
-.home-container p:nth-child(1):hover ~ .home-bg {
-    filter: drop-shadow(0 100px 200px yellow);
-}
+
 
 .home-container p:nth-child(2) {
     user-select: none;
     font-size: 18px;
     margin-top: -80px;
     transition: all ease-in-out .3s;
-}
-.home-container p:nth-child(2):hover ~ .home-bg {
-    filter: drop-shadow(0 100px 200px yellow);
 }

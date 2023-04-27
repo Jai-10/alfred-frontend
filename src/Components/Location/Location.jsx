@@ -16,7 +16,7 @@ const Location = (props) => {
                     transition: "all ease-in-out .3s",
                     userSelect: "none"
                 }}
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
             >
             </iframe>
         </div>

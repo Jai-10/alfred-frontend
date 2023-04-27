@@ -24,7 +24,7 @@ const Navbar = () => {
 
             <div className="nav-right"
                 style={{
-                    marginLeft: `${navState ? '0' : '-100%' }`
+                    marginLeft: `${navState ? '0' : '-120%' }`
                 }}
             >
                 <ul className="nav-right-links">

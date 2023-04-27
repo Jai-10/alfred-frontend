@@ -25,6 +25,7 @@
 
 
 
+
 .review-top {
     /* border: 1px solid; */
     display: flex;
@@ -68,4 +69,7 @@
 ::-webkit-scrollbar-thumb {
     border-radius: 20px;
     background: #cacaca;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: yellow;
 }

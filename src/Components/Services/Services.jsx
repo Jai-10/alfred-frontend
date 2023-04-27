@@ -1,6 +1,12 @@
 import './Services.css'
 
 const Services = () => {
+
+    const submitRequest = () => {
+        alert("Request submitted!")
+    }
+
+
     return (
         <div className='services-container'>
             <div>
@@ -51,7 +57,7 @@ const Services = () => {
 
             <br />
 
-            <button className='submit-request'>Send request</button>
+            <button className='submit-request' onClick={submitRequest}>Send request</button>
         </div>
     )
 }

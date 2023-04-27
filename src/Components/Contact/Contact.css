@@ -17,7 +17,6 @@
 }
 
 .contact-container input {
-    max-width: 500px;
     min-width: 300px;
     padding: 10px;
     margin: 5px;
@@ -31,7 +30,6 @@
 }
 
 .contact-container textarea {
-    max-width: 500px;
     min-width: 300px;
     padding: 10px;
     margin: 5px;

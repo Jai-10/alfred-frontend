@@ -1,6 +1,7 @@
 import Reviews from '../Reviews/Reviews';
 import Locations from '../Locations/Locations';
 import './Home.css'
+import Contact from '../Contact/Contact';
 
 const Home = () => {
     return (
@@ -25,6 +26,9 @@ const Home = () => {
 
             {/* available location section */}
             <Locations />
+
+            {/* contact section */}
+            <Contact />
         </>
     )
 }
